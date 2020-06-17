@@ -16,16 +16,16 @@ api_access_whitelist_ips:
     - 44.233.159.220/32
 lambda_layer_s3_key: zip/cni_common_v226-9.zip
 lambda_function_s3_key: zip/api_v5.zip
-lambda_memory_size: 2048
+lambda_memory_size: 1024
 
 eks_k8s_version: '1.15'
 inbound_vpc_cidr: 10.20.8.0/22
 inbound_data_plane_node_group_instance_types:
-  - m5.xlarge
+  - t3.medium
 inbound_data_plane_node_group_max_size: 6
 
 outbound_data_plane_node_group_instance_types:
-  - m5.xlarge
+  - t3.medium
 outbound_data_plane_node_group_max_size: 6
 
 metrics_exporter:
