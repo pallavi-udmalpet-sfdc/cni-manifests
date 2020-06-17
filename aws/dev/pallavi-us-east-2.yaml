@@ -1,12 +1,12 @@
   
 region: us-east-2
 env_name: dev
-deployment_id: pal4561
+deployment_id: pal456
 tags:
   region: us-east-2
   env_name: dev
   deployment_id: pal456
-private_connect_role_name: dev-pal4561-us-east-2-private-connect
+private_connect_role_name: dev-pal456-us-east-2-private-connect
 
 api_authorization: CUSTOM
 api_authorizer_gdot_url: https://login.stmpa.stm.salesforce.com/services/c2c/api/v1/validateJwt
